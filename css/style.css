@@ -2,11 +2,6 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400");
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300');
-/*
-	Interphase by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
 /* Basic */
 
@@ -894,7 +889,7 @@
 		#header nav {
 			height: inherit;
 			line-height: inherit;
-			position: absolute;
+			position: fixed;
 			right: 2.75em;
 			top: 0;
 			vertical-align: middle;
@@ -1102,7 +1097,8 @@
 	border-bottom: dotted;
 	border-bottom-width:0.3px;
 	border-spacing:0.3px;
-color:#fff; }
+	color:#fff; 
+	}
 
 .white {
 	color:#fff;
@@ -1135,4 +1131,11 @@ hr {
 
 li {
 	padding: 2px 5px;             
+}
+
+.extLinks
+{
+	font-size:25px !important;
+	font-weight:400;
+	line-height:1.5em !important;
 }
