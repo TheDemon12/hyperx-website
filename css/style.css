@@ -1138,9 +1138,5 @@ li {
 	font-size:25px !important;
 	font-weight:400;
 	line-height:1.5em !important;
-	text-decoration: none;
-	border-bottom: dotted;
-	border-bottom-width:0.3px;
-	border-spacing:0.3px;
-	color:#fff; 
+	text-decoration: underline;
 }
