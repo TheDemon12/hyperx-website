@@ -5,6 +5,14 @@
 */
 (function($) {
 
+	$(document).ready(function() {
+ 
+    setTimeout(function(){
+        $('body').addClass('loaded');
+    }, 3000);
+ 
+});
+
 	skel.init({
 		reset: 'full',
 		breakpoints: {
@@ -70,10 +78,5 @@
 		}
 	});
 
-	$(function() {
-
-		// ...
-
-	});
 
 })(jQuery);
