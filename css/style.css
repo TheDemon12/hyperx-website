@@ -1291,3 +1291,12 @@ li {
 	line-height:1.5em !important;
 	text-decoration: underline;
 }
+
+.buttonMain
+{
+	margin:20px;
+	display:block;
+	font-size:22px !important;
+	font-weight:500;
+	border: 1px solid #ffffff;
+}

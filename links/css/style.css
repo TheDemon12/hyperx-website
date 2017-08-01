@@ -1291,3 +1291,10 @@ li {
 	line-height:1.5em !important;
 	text-decoration: underline;
 }
+
+.support 
+{
+	text-align:center;
+	color:#fff;
+	font-size:22px !important;
+}
