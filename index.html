@@ -1,149 +1,92 @@
-<!DOCTYPE html>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flosix - Bootstrap template, Creative One Page Template</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/font-icon.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
 
-<html lang="en">
-	<head>
-		<div id="loader-wrapper">
-		<div id="loader"></div>
-		<div class="loader-section section-left"></div>
-		<div class="loader-section section-right"></div>
-		</div>
-		
-		<meta charset="UTF-8">
-		<title>HyperX</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-		<meta http-equiv="Pragma" content="no-cache" />
-		<meta http-equiv="Expires" content="0" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<script src="js/scroll.js"></script>
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<script>
-		  (adsbygoogle = window.adsbygoogle || []).push({
-			google_ad_client: "ca-pub-3764796401079806",
-			enable_page_level_ads: true
-		  });
-		</script>
-		<script> 
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), 
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); 
-
-			ga('create', 'UA-89462011-4', 'auto'); 
-			ga('send', 'pageview'); 
-		</script> 
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body class="landing">
-
-		<!-- Header -->
-			<header id="header">
-				<h1><a href="">HyperX</a></h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="">Home</a></li>
-						<li><a href="downloads/">Downloads</a></li>
-						<li><a href="links/">External Links</a></li>
-					</ul>
-				</nav>
-			</header>
-
-		<!-- Banner -->
-			<section id="banner">
-			<img id = "hyperX" src ="images/hyperX.png">
-				<p id="heading">A kernel, based on <a class="none" href="https://github.com/AOSPA/android_kernel_oneplus_msm8996"> AOSPA </a>source, compatible with all custom roms<br />
-						and source is available as open source on <a class="none" href="https://github.com/TheDemon12/HyperX-PA_BASE">Github</a>.</p>
-				<ul class="actions">
-					<li>
-						<a onclick="scrollToTarget('#two')" class="button big">Learn More</a>
-					</li>
-					
-				</ul>
-			</section
-		<!-- Two -->
-		
-			<section id="two" class="wrapper style2 white">
-			<ul class="actions" style="text-align: center;">
-				<li><a href="downloads/" class="button alt buttonMain" style="color: #fff!important;">DOWNLOADS</a></li>
-				<li><a href="links/index.html#supportMe" class="button alt buttonMain" style="color: #fff!important;">SUPPORT THE DEVELOPMENT</a></li>
-			</ul>
-				<div class="container">
-					<h2 style="color:#fff;font-weight:400;">Disclaimer</h2>
-					<blockquote>
-						<ul>
-							<li>*** Flash at your own risk! ***</li>
-							<li>I can and will not take any responsibility for bricked phones or lost data.</li>
-							<li>It is generally recommended to run a complete Nandroid backup in your custom recovery and safely store your personal data before you flash a new kernel.</li>
-						</ul>
-					</blockquote>
-					<h2 style="color:#fff;font-weight:400;">Features</h2>
-					<blockquote>
-						<ul>
-							<li>Note: This kernel only boots on custom roms for the OnePlus 3/3T <span class="none">(Won't boot on OOS/OB)</span>.</li>
-							<li>Kernel has been based on AOSPA kernel source, thus battery life will be good. (PS. : kernel is not limited to AOSPA , will work on any custom rom)</li>
-							<li>Linux 3.18.63</li>
-							<li>CAF TAG: LA.UM.5.5.r1-05400-8x96.0</li>
-							<li>Linaro-7.x Toolchain</li>
-							<li>KCal V2 Color control</li>
-							<li>Swipe2sleep gestures</li>
-							<li>USB fast charging</li>
-							<li>Implemented intermediate frequencies for LITTLE cluster instead of direct jump from 1.59 to 2.1 GHz.</li>
-							<li>enabled ondemand & conservative governors.</li>
-							<li>Custom governors include blu_active, elementalX, darkness</li>
-							<li>Powersuspend Driver</li>
-							<li>Adreno Idler</li>
-							<li>Maple Iosched</li>
-							<li>westwood TCP</li>
-							<li>Some Wakelocks</li>
-							<li>Boeffla Touch Key Driver [Use a terminal: echo 1 >> /sys/class/misc/btk_control/btkc_mode]</li>
-							<li>qpnp-haptic: vibration controller</li>
-							<li>Backlight Dimmer</li>
-						</ul>
-					</blockquote>
-					
-					<h2 style="color:#fff;font-weight:400;">Known issues</h2>
-					<blockquote>
-						<ul>
-							<li>None</li>
-						</ul>
-					</blockquote>		
-
-					<h2 style="color:#fff;font-weight:400;">F.A.Q.</h2>
-					<blockquote>
-						<ul>
-							<li><span class ="bold white">Why you are using Linaro TC?</span> : Because I can.</li>
-							<li><span class ="bold white">Can u change to UberTC builds?</span> : NO.</li>
-							<li><span class ="bold white">How can I get info about latest updates</span> : Join our combined group of Hyper supported devices. Link : <a href="https://t.me/Hyper_Team:" class="none">https://t.me/Hyper_Team</a> and <a href="https://t.me/HyperX_oneplus3" class="none">https://t.me/HyperX_oneplus3</a> channel.</li>
-							<li><span class ="bold white">How frequent will you be giving updates</span> : As soon as there are changes from kernel.org or CAF.</li>
-							<li><span class ="bold white">Can I get xyz feature in the kernel</span> : Come and ask in the group.</li>
-						</ul>
-					</blockquote>
-					</div>
-			</section>
-			<ul class="actions" style="text-align: center;">
-						<li><a href="downloads/" class="button alt buttonMain" style="color: #fff!important;">DOWNLOADS</a></li>
-						<li><a href="links/index.html#supportMe" class="button alt buttonMain" style="color: #fff!important;">SUPPORT THE DEVELOPMENT</a></li>
-			</ul>
-		<!-- Footer -->
-			<hr>
-			<footer id="footer">
-				<div>
-					<ul class="copyright">
-						<li>&copy; HyperX. All rights reserved.</li>
-						<li><a href="https://github.com/Thedemon12" style="text-decoration:none;">TheDemon(Kartik B.)</a></li>
-					</ul>
-				</div>
-			</footer>
-	</body>
+<body>
+<!-- header section -->
+<section class="banner" role="banner"> 
+  <!--header navigation -->
+  <header id="header">
+    <div class="header-content clearfix"> <a class="logo" href="#"><img style="height:40px;" src="images/logo.jpg" alt=""></a>
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+          <li><a href="">Home</a></li>
+		   <li><a href="feat/">Features</a></li>
+          <li><a href="downloads/">Downloads</a></li>
+          <li><a href="links/">External Links</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
+  <!--header navigation --> 
+  <!-- banner text -->
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="banner-text text-center">
+	  <img id = "hyperX" src ="images/hyperX.png">
+        <p style="font-size:16px;font-weight:600;">A KERNEL, BASED ON <a class="none" href="https://github.com/AOSPA/android_kernel_oneplus_msm8996"> AOSPA </a>SOURCE, COMPATIBLE WITH ALL CUSTOM ROMS<br />
+						AND SOURCE IS AVAILABLE AS OPEN SOURCE ON <a class="none" href="https://github.com/TheDemon12/HyperX-PA_BASE">GITHUB</a>.</p>
+        <nav role="navigation"> <a href="#down" class="banner-btn"><img src="images/down-arrow.png" alt=""></a></nav>
+      </div>
+      <!-- banner text --> 
+    </div>
+  </div>
+</section>
+<!-- Get a quote section -->
+<section id="down" class="section quote">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <h3>Looking for something?</h3>
+	  <a href="" class="btn btn-large">Home</a>
+      <a href="feat/" class="btn btn-large">Features</a>
+	  <a href="downloads/" class="btn btn-large">Downloads</a>
+	  <a href="links/index.html#support" class="btn btn-large">Support Development</a>
+	  <a href="links/" class="btn btn-large">External Links</a>
+	  </div>
+  </div>
+</section>
+<!-- Get a quote section --> 
+<!-- Footer section -->
+<footer class="footer">
+  <div class="footer-top section">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-12">
+          <h5>HyperX</h5>
+          <p>Copyright © 2017 HyperX. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer top --> 
+  
+</footer>
+<!-- Footer section --> 
+<!-- JS FILES --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.flexslider-min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/retina.min.js"></script> 
+<script src="js/modernizr.js"></script> 
+<script src="js/main.js"></script>
+</body>
 </html>
