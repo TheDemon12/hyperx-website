@@ -1,4 +1,16 @@
 @media screen and (max-width: 1024px) {
+html,body
+{
+    width: 102.5%;
+    height: 100%;
+	background-color:#fff !important;
+    margin:0;
+    overflow-x: hidden; 
+}
+#hyperX
+{
+	width:350px;
+}
 #header .header-content {
 	width: 90%;
 }
@@ -89,6 +101,10 @@
 .banner-text h1 {
 	font-size: 32px;
 }
+#hyperX
+{
+	width:320px;
+}
 }
 @media screen and (max-width: 320px) {
 .banner-text {
@@ -99,5 +115,9 @@
 }
 .testimonials p {
 	font-size: 14px;
+}
+#hyperX
+{
+	width:300px;
 }
 }
