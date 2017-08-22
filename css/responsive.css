@@ -11,6 +11,10 @@ html,body
 {
 	width:350px;
 }
+.logo
+{
+	display:none;
+}
 #header .header-content {
 	width: 90%;
 }
